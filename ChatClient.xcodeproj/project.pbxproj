@@ -15,6 +15,7 @@
 		861C12E71CA3B47000435384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861C12E51CA3B47000435384 /* LaunchScreen.storyboard */; };
 		861C12F21CA3B47000435384 /* ChatClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C12F11CA3B47000435384 /* ChatClientTests.m */; };
 		861C12FD1CA3B47000435384 /* ChatClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C12FC1CA3B47000435384 /* ChatClientUITests.m */; };
+		86404E451CA5459F00A7B977 /* server.py in Resources */ = {isa = PBXBuildFile; fileRef = 86404E441CA5459F00A7B977 /* server.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		861C12F81CA3B47000435384 /* ChatClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861C12FC1CA3B47000435384 /* ChatClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatClientUITests.m; sourceTree = "<group>"; };
 		861C12FE1CA3B47000435384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86404E441CA5459F00A7B977 /* server.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = server.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		861C12D71CA3B47000435384 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86404E441CA5459F00A7B977 /* server.py */,
 				861C12D81CA3B47000435384 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +249,7 @@
 				861C12E71CA3B47000435384 /* LaunchScreen.storyboard in Resources */,
 				861C12E41CA3B47000435384 /* Assets.xcassets in Resources */,
 				861C12E21CA3B47000435384 /* Main.storyboard in Resources */,
+				86404E451CA5459F00A7B977 /* server.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +502,7 @@
 				861C13031CA3B47000435384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861C13041CA3B47000435384 /* Build configuration list for PBXNativeTarget "ChatClientTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				861C13061CA3B47000435384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		861C13071CA3B47000435384 /* Build configuration list for PBXNativeTarget "ChatClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				861C13091CA3B47000435384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
